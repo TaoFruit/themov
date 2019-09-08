@@ -2,7 +2,7 @@
 /*
 	* LayerSlider
 	*
-	* (c) 2011-2016 George Krupa, John Gera & Kreatura Media
+	* (c) 2011-2020 George Krupa, John Gera & Kreatura Media
 	*
 	* Plugin web:			https://kreaturamedia.com/
 	* licenses:				http://codecanyon.net/licenses/

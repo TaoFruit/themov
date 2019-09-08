@@ -55,7 +55,7 @@ if(get_magic_quotes_gpc()) {
 
 
 //$address = "HERE your email address";
-$address = "info@lovefit.com";
+$address = "info@TheMOV.com";
 
 
 // Below the subject of the email
@@ -76,8 +76,8 @@ $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 $user = "$email";
 $usersubject = "Thank You";
-$userheaders = "From: info@lovefit.com\n";
-$usermessage = "Thank you for subscribe to Lovefit. We will reply shortly! with more details";
+$userheaders = "From: info@TheMOV.com\n";
+$usermessage = "Thank you for subscribe to TheMOV. We will reply shortly! with more details";
 mail($user,$usersubject,$usermessage,$userheaders);
 
 if(mail($address, $e_subject, $msg, $headers)) {
