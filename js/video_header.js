@@ -89,6 +89,10 @@ var HeaderVideo = (function ($, document) {
         else if(videoDetails.provider === 'html5') {
             var html = '<video autoplay="true" loop="loop" id="video"><source src="'+videoDetails.id+'.mp4" type="video/mp4"><source src="'+videoDetails.id+'.ogv" type="video/ogg"></video>';
         }
+        else if(videoDetails.provider === 'themov') {
+            var vidnumber = Math.floor((Math.random() * 15) + 1);
+            var html = '<video autoplay="true" loop="loop" id="video"><source src="video/'+vidnumber+'.mp4" type="video/mp4"><source src="video/'+vidnumber+'.ogv" type="video/ogg"></video>';
+        }
         return html;
     };
 
